@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,li {
+	list-style: none;
+}
+
+/*logo*/
+.logo {
+	width: 320px;
+	height: 238px;
+	padding: 22px 0 16px;
+	margin: 0 auto;
+}
+
+.logo img {
+	display: block;
+	width: 320px;
+	height: 238px;
+}
+
+/*立即安装按钮*/
+.lijianzhuang {
+	display: block;
+	width: 230px;
+	height: 46px;
+	margin: 0 auto;
+}
+
+.lijianzhuang img {
+	display: block;
+	width: 230px;
+	height: 46px;
+	border-radius: 23px;
+}
+
+.tishi {
+	color: #87949f;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 0 35px;
+}
+.zhuti {
+	display: block;
+	width: 320px;
+	margin: 0 auto;
+}
+
+/*列表*/
+.list {
+	width: 320px;
+	padding: 31px 0 14px;
+	margin: 0 auto;
+}
+
+.list li {
+	padding-left: 44px;
+	padding-bottom: 16px;
+	overflow: hidden;
+}
+
+.list li img {
+	width: 64px;
+	height: 64px;
+	float: left;
+}
+
+.list li .biaotitxt {
+	padding-left: 14px;
+	float: left;
+	
+}
+
+.list li .biaotitxt h1 {
+	font-size: 13px;
+	color: #3a4048;
+	font-weight: normal;
+	padding: 14px 0 11px;
+}
+
+.list li .biaotitxt p {
+	font-size: 11px;
+	color: #87949F;
+}
+
+/*footer网页底部*/
+footer {
+	clear: both;
+	font-size: 10px;
+	text-align: center;
+	color: #87949F;
+	background: #f9f9f9;
+	line-height: 1.5em;
+	padding: 10px 0;
+}
+
+/*响应式布局*/
+@media only screen and (min-width: 768px) {
+	/*logo*/
+	.logo {
+	width: 640px;
+	height: 476px;
+	padding: 44px 0 32px;
+	}
+	.logo img {
+		width: 640px;
+		height: 476px;
+	}
+	
+	/*立即安装按钮*/
+	.lijianzhuang {
+		width: 460px;
+		height: 92px;
+	}
+	
+	.lijianzhuang img {
+		width: 460px;
+		height: 92px;
+	}
+	
+	.tishi {
+		padding: 20px 0 70px;
+		font-size:20px;
+	}
+	.zhuti {
+		width: 640px;
+	}
+	
+	/*列表*/
+	.list {
+		width: 640px;
+		padding: 62px 0 28px;
+	}
+	
+	.list li {
+		padding-left: 88px;
+		padding-bottom: 32px;
+	}
+	
+	.list li img {
+		width: 128px;
+		height: 128px;
+	}
+	
+	.list li .biaotitxt {
+		padding-left: 28px;
+	}
+	
+	.list li .biaotitxt h1 {
+		padding: 28px 0 22px;
+		font-size: 26px;
+	}
+	
+	.list li .biaotitxt p {
+		font-size: 22px;
+	}
+	
+	/*footer网页底部*/
+	footer {
+		font-size: 20px;
+		padding: 20px 0;
+	}
+}

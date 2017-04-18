@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+			//获得请求报头的浏览器信息
+			var userAgent = navigator.userAgent;
+			
+			//根据浏览器信息跳转到PC站或者MOBILE站
+			if ( userAgent.toLowerCase().indexOf('android') != -1 || userAgent.toLowerCase().indexOf('iphone') != -1 
+			|| userAgent.toLowerCase().indexOf('ipad') != -1 ){
+				location.href = 'mobile/index.html';
+			} else {
+				location.href = 'pc/index.html';
+			}
+		</script>
+	</body>
+</html>
